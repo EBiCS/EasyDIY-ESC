@@ -14,14 +14,13 @@ Characteristics:
 
 **Current state**
 
-As of 31.12.2021,
-* the schematic was discussed between Andrii and Casainho. Andrii already did a similar motor controller and is confident on this schematic.
-* the PCB was designed by Andrii
-* the PCB was ordered and next steps are to build and test the motor controller, using this OpenSource firmware: https://github.com/Koxx3/SmartESC_STM32_v3
+As of 30.01.2022,
+* First board prototype had two minor issues that were easy solved. See here a Xiaomi M365 motor running: https://www.youtube.com/watch?v=NelnB91Vqgw<br>
+The plan is to design a new version of the board with corrections and improvements on the power that the board can handle, as also make it smaller as possible while maintaining the 0805 components for easy DIY building at home.
 
-Schematic:
-![](schematic.png)
+Some pictures:
 
-PCB:
+![Pinout](versions/2021-12-28/01.jpg)
 
-![](pcb_3d.png)
+And here is my custom electronics board, quickly made with a perforated board. Added a button to execute the motor autodetection and two 0805 resistors to adapt the throttle 5V signal to the 3.3V scale:<br>
+![Pinout](versions/2021-12-28/expansion_board.jpg)
