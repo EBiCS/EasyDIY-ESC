@@ -4,10 +4,10 @@ On this folder are the exported project from EasyEda as also the exported files 
 
 Known issues:
 - R31 and R32 should be connected to 3.3V but there is a mistake on the connections of the schematic. On PCB, a wire to 3.3V must be connected to R31.
-- LMV324: missing voltage divider to make the 3.3V/2 voltage (see M365 schematic)
+- LMV324: missing voltage divider to make the 3.3V/2 voltage. (see M365 schematic)
 
 Suggestions
-- LMV324
+- add analog input for analog signal of mosfets or motor temperature sensor. 3 pins: (5V or 3.3V configured with small soldered shunt; GND; signal, that will a voltage divisor with for instance a resistor of 1K8 and 3k3 to GND)
 
 David M: It will be ok but if you're making your own hardware, that's a slightly crappy opamp
 Low gain bandwidth
