@@ -7,6 +7,7 @@ Known issues:
 - LMV324: missing voltage divider to make the 3.3V/2 voltage. (see M365 schematic)
 
 Suggestions
+- move the hall sensors pins to PC13, PC14 and PC15 - this way the pins PA11 and PA12 for CAN / USB are free to use and they must be route to the expansion header
 - add analog input for analog signal of mosfets or motor temperature sensor. 3 pins: (5V or 3.3V configured with small soldered shunt; GND; signal, that will a voltage divisor with for instance a resistor of 1K8 and 3k3 to GND)
 
 David M: It will be ok but if you're making your own hardware, that's a slightly crappy opamp
