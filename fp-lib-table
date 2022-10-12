@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "Intible")(type "KiCad")(uri "${KIPRJMOD}/../lib/fp")(options "")(descr "Assorted footprints for ESC power boards"))
+  (lib (name "Intible")(type "KiCad")(uri "${KIPRJMOD}/lib/fp")(options "")(descr "Assorted footprints for ESC power boards"))
 )

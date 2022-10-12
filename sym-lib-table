@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name "STH05_Module")(type "KiCad")(uri "${KIPRJMOD}/../lib/sym/sth05.kicad_sym")(options "")(descr ""))
-  (lib (name "MP1584EN_Module")(type "KiCad")(uri "${KIPRJMOD}/../lib/sym/mp1584en_4_pin.kicad_sym")(options "")(descr ""))
-  (lib (name "Bluepill_Module")(type "KiCad")(uri "${KIPRJMOD}/../lib/sym/yaaj_bluepill.kicad_sym")(options "")(descr ""))
+  (lib (name "STH05_Module")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/sth05.kicad_sym")(options "")(descr ""))
+  (lib (name "MP1584EN_Module")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/mp1584en_4_pin.kicad_sym")(options "")(descr ""))
+  (lib (name "Bluepill_Module")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/yaaj_bluepill.kicad_sym")(options "")(descr ""))
 )
