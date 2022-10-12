@@ -1,0 +1,1 @@
+EasyDIY-ESC KiCad adaptation
