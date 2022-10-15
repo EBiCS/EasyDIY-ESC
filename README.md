@@ -1,8 +1,6 @@
 # EasyDIY ESC
 
-Note: 'main' branch is under development, there is a change to used KiCad as compared to v0.5.2 (current HEAD of feature/v0_5_2, i.e. git SHA1 - e55e314)
-
-README from v0.5.2 as follows,
+Note: 'main' branch is under development, there is a change to use KiCad as compared to v0.5.2 (current HEAD of feature/v0_5_2, i.e. git SHA1 - e55e314)
 
 The target for this EV motor controller is to power small EVs like EBikes or EScooters like Xiaomi M365, and offer better customizability and repairability.
 
@@ -14,7 +12,7 @@ The target for this EV motor controller is to power small EVs like EBikes or ESc
 
 * **Possible to add custom electronics:** For reusing this motor controller on different devices, you can extend the electrocnis with a custom header on top of the Bluepill. This means you can use all available pins and access and extend with: CAN, UARTs, etc.
 
-* **Possibility to buy the SMD parts pre-soldered:** While we went to great extend do make this board easy to DIY by humans (as opposed to robots in a factory), we acknowledge there are many who lack the skill/time/motivation to solder all SMDs themselves. So all SMDs are on the same side, in large stoc at lcsc (at the time of writing), so the board can be ordered with SMDs pre-assembled by JLCPCB for a decent price.
+* **Possibility to buy the SMD parts pre-soldered:** While we went to great extend do make this board easy to DIY by humans (as opposed to robots in a factory), we acknowledge there are many who lack the skill/time/motivation to solder all SMDs themselves. So all SMDs are on the same side, in large stock at lcsc (at the time of writing), so the board can be ordered with SMDs pre-assembled by JLCPCB for a decent price.
 
 * **Compactness:** Despite using only big DIY friendly parts, we tried to keep the board as small as possible: ~ 73mm x 49mm
 
@@ -64,12 +62,13 @@ Attaching the FETs to a heatsink: the FETs need to be electrically isolated from
 
 Unfortunately in focusing on making the board small we crammed the FETs very close together. This means some mica or ceramic pads will not fit - and it’s very hard to cut them afaik. So for this version we’re probably stuck with polymer / kapton. 
 
+### **Testing**
+
+* v0.5 build has been tested by mxlemming with MESC FOC firmware on F401CC black pill board
+
 ### **Known issues/limitations:**
 * Mosfet temp sensor missing - you can add it to the expansion board. 
 * Many connectors are not present (example: CAN)  - you can add them to the expansion board. 
-* EBiCS software has 2 “flavors” - v2 and v3. This controller is designed with v3 in mind, which is currently still in development. For achieving v2 compatibility, the hall signals need to be routed (shorted) to other pins.
-* The 12v DC-DC module needs a 10uF input cap as per app notes - there is none on our board. Improvise! (there is a VBAT TH pad and a GND pin of the module, maybe use those)
-* At the time of writing, the board has not been tested, so it might not work!
 
 
 ## FAQ
@@ -78,7 +77,7 @@ Unfortunately in focusing on making the board small we crammed the FETs very clo
 They are power for your uart-connected board. If it’s a 5v board, solder the 5v solder jumper, if it needs 3.3v solder the 3v3 jumper. Never solder both! 
 
 * **Can you assemble it for me?**
-You can get the SMD side pre-assembled at jlcpcb. The gerber files, pick and place, and BOM are prepared for it. (at the time of design all parts were in stock for jlcpcb SMT service). So you’ll only need to solder the through-hole parts and the modules. I don’t plan on selling any assembled PCBs. 
+You can get the SMD side pre-assembled at jlcpcb (at the time of design all parts were in stock for jlcpcb SMT service). So you’ll only need to solder the through-hole parts and the modules. Currently there is no plan on selling any assembled PCBs.
 
 * **I want more power!!!**
 This might not go well. So good luck, you’ll probably need it. Please don't blame us when it goes up in smoke. But do let us know how it goes. Disclamer aside, here are some basic suggestions:
@@ -101,9 +100,6 @@ It should be fairly easy to switch to other parts on your own: we used mostly st
 If you know better parts or have better solutions, please let us know on our ES thread. We like learning new things. 
 ....except if you’re going to suggest 3077 or 4110 mosfets. Those things are dinosaurs. They were the biggest baddest thing around during their time, but nowadays belong to a museum. Or a kid’s t-shirt. Please stop recommending them. See our thread for details.
 
-* **Why not KiCad?** 
-Long story… But the experience of designing this ESC in EasyEDA almost ensures that the next version will be designed in KiCad.
-
 * **Where can I buy parts?**
 Lcsc.com, mouser.com. Aliexpress if needed. 
 I designed this with jlcpcb smt assembly in mind, so all SMDs were in stock at lcsc when I designed the PCB. Also most of the Through-hole parts. 
@@ -119,7 +115,7 @@ Some exceptions, and where to buy them:
 If you have the battery wires at the edge, then the full battery current will need to go through a portion of the battery “traces” of the PCB. I’ve placed them near the middle switch node, so with a tiny exception, the current through the traces is ⅓ of the battery current. So you can actually get away without bus bars for low power. (For higher power - 20A from battery or more - I’d still recommend soldering extra copper wires to the exposed bus traces)
 
 * **This whole thing is amateur work!**
-Yeah, totally true. If I were a pro, I’d be working on the next gen Porsche Taycan controller and be paid well for it. But I’m an amateur working on a generic low power ESC for free. If by this you refer to any specific mistake / set of mistakes, I’d love to know about it! Post in the ES thread. Thanks!
+Yeah, totally true. We are amateurs working on a generic low power ESC for free. If by this you refer to any specific mistake / set of mistakes, we would love to know about it! Post in the ES thread. Thanks!
 
 
 ## Change log v0.5 -> v0.5.2
