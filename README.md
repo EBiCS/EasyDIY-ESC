@@ -26,13 +26,13 @@ https://endless-sphere.com/forums/viewtopic.php?f=30&t=114537
 ## Building Tips:
 
 ### **Bus Bars**
-For low power you do not need bus bars, (~20A battery current). For more, bus bars are recommended. (extra copper wires soldered to the exposed copper strips of the PCB)
+Bus bars are recommended for anything else than very low current. (extra copper wires soldered to the exposed copper strips of the PCB, or at very least a lot of solder on the exposed strips)
 
 ### **Bulk electrolytic capacitors (XC.... )**
 We went for a total of ~1000uF, which should be enough for most usecases. 
 You need more capacitance the more power you plan to use, and the longer (and thinner) your battery wires are. So you can probably also get away with less if you have short thick battery wires.  
 Choose voltage rating ~ 1.5x your max battery voltage for a long lifetime. For 48v nominal (54.6V max) battery voltage, 80V or more is recommended. 
-The total capacitance of the electrolytic capacitors is more important than the exact combination of values. 1 big + 3 small is almost the same as 3 medium of the same total value.  
+The total capacitance of the electrolytic capacitors is more important than the exact combination of values. 1 big + 3 small is almost the same as 3 medium of the same total value. More smaller capacitors have the advantage of lower ESR, lower inductance, and redundancy in case one fails)
 
 ### **Bulk ceramic/MLC capacitors:  (XC.... )**
 As much as possible. These need to compensate for the high frequency weakness of the electrolytic capacitors. Overrating voltage rating is recommended. (author chose 100V for the “default” for 3.3v, 5v and 12v). Definitely fill all open footprints. 
@@ -51,14 +51,14 @@ All parts marked OCx are optional GS Capacitors for the mosfets. If you insist o
 The default FETs are available from aliexpress at the time of writing. They are cheap and have good specs. (low Rds on, low Crss, 100v, etc). 
 You can solder them “standing” on the the throughhole/module side, or bent flat on the opposite (smd) side. In either case, it is recommended that the thick part of the leads is in contact with (soldered to) the board. The thin part of the leads can carry significantly less current.
 
-You can use a fet of your choosing, but please be aware that old Fets (such as the famous 4110 or 3077) have huge Crss, leading to a tiny Ciss/Crss ratio. This ratio needs to be bigger than roughly your max battery voltage, so you will need to compute and add the optional Cgs capacitors (OCx).
+You can use a fet of your choosing, but please be aware that old Fets (such as the famous 4110 or 3077) have huge Crss, leading to a tiny Ciss/Crss ratio. This ratio needs to be bigger than roughly your max battery voltage, so you will need to compute and add the optional Cgs capacitors (OCx). Small Ciss/Crss results in ringing / parastic turn on (which leads to failure). 
 That being said, it’s best to just use Fets with Ciss/Crss > ~100, nowadays they’re easy to find. See the spreadsheet with alternative parts. 
 
 Attaching the FETs to a heatsink: the FETs need to be electrically isolated from the heatsink, but well connected thermally. The options for this are:
 * Mica glass (“traditional option”, cheap, easy to find)
 * Ceramics (saw this as a new option, never tried it)
 * Polymer pads 
-* Kapton Tape (i saw this used, i expect this to have rather poor thermal performance)
+* Kapton Tape 
 
 Unfortunately in focusing on making the board small we crammed the FETs very close together. This means some mica or ceramic pads will not fit - and it’s very hard to cut them afaik. So for this version we’re probably stuck with polymer / kapton. 
 
@@ -81,7 +81,7 @@ You can get the SMD side pre-assembled at jlcpcb (at the time of design all part
 
 * **I want more power!!!**
 This might not go well. So good luck, you’ll probably need it. Please don't blame us when it goes up in smoke. But do let us know how it goes. Disclamer aside, here are some basic suggestions:
-   * Stack another 1mohm shunt on top of the other. This will make the max current you can safely read ~160A (Phase RMS)
+   * Stack another 1mohm shunt on top of the other. This will double the max current you can read. 
    * Add thick bus bars to the board.
    * Add more/ bigger bulk caps!
    * Use appropriate wires (thick!) 
