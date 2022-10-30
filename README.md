@@ -112,7 +112,7 @@ Some exceptions, and where to buy them:
    * Bluepill headers - aliexpress
 
 * **Why do the battery wires go in seemingly random places in the middle of the board?**
-If you have the battery wires at the edge, then the full battery current will need to go through a portion of the battery “traces” of the PCB. I’ve placed them near the middle switch node, so with a tiny exception, the current through the traces is ⅓ of the battery current. So you can actually get away without bus bars for low power. (For higher power - 20A from battery or more - I’d still recommend soldering extra copper wires to the exposed bus traces)
+If you have the battery wires at the edge, then the full battery current will need to go through a portion of the battery “traces” of the PCB. I’ve placed them near the middle switch node, so with a tiny exception, the current through the traces is ⅓ of the battery current. 
 
 * **This whole thing is amateur work!**
 Yeah, totally true. We are amateurs working on a generic low power ESC for free. If by this you refer to any specific mistake / set of mistakes, we would love to know about it! Post in the ES thread. Thanks!
