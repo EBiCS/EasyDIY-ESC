@@ -70,7 +70,7 @@
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes true)
-      (usegerberadvancedattributes true)
+      (usegerberadvancedattributes false)
       (creategerberjobfile false)
       (svguseinch false)
       (svgprecision 6)
