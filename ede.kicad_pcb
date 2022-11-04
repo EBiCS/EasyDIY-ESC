@@ -7308,7 +7308,7 @@
   )
   (zone (net 56) (net_name "GND") (layer "In2.Cu") (tstamp 8ac5e8bd-7943-4b51-9416-d5db3c0c8395) (hatch edge 0.508)
     (connect_pads yes (clearance 0.254))
-    (min_thickness 0.254) (filled_areas_thickness no)
+    (min_thickness 0.2) (filled_areas_thickness no)
     (fill (thermal_gap 0.152) (thermal_bridge_width 1.27))
     (polygon
       (pts
