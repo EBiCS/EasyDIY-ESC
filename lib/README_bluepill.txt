@@ -1,0 +1,7 @@
+- Based on https://github.com/yet-another-average-joe/Kicad-STM32.git
+- No license in the base project, hence none used here
+- Used only one symbol & footprint to avoid clutter
+- 3d alias pointed to the images in download folder (extracted in place)
+- Symbol converted to KiCad from Legacy type
+- Footprint silkscreen modified
+- Do not remember if any other changes were made
