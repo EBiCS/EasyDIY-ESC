@@ -6022,7 +6022,7 @@
     (property "Value" "Blackpill" (id 1) (at 45.72 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 65.405 26.67 90)
+    (property "Footprint" "Intible:YAAJ_Bluepill" (id 2) (at 65.405 26.67 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 65.405 26.67 90)
@@ -7403,7 +7403,7 @@
       (reference "SH3") (unit 1) (value "0.001") (footprint "Intible:R_2512_6332Metric_EDE")
     )
     (path "/a9708a6e-3a56-44b9-b1fc-15d528ecac3e"
-      (reference "U1") (unit 1) (value "Blackpill") (footprint "")
+      (reference "U1") (unit 1) (value "Blackpill") (footprint "Intible:YAAJ_Bluepill")
     )
     (path "/2adc3a9f-6d7f-41d9-b1d6-fc8b7b806926"
       (reference "U2") (unit 1) (value "NCS20034DR2G") (footprint "Intible:SOIC-14_3.9x8.7mm_P1.27mm_EDE")
