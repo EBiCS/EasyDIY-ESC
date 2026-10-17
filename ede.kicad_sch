@@ -9908,6 +9908,26 @@
 		)
 		(uuid "fff10bda-c7c1-45a0-a75b-9114de6fb192")
 	)
+	(label "HALLSENSORC"
+		(at 90.17 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02dd50c8-d8e5-4471-ace6-f1f5f5dbc91a")
+	)
+	(label "DISABLEPOWER"
+		(at 236.22 265.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "092e78e0-c614-41be-bd2d-8442b4af360a")
+	)
 	(label "GL_B"
 		(at 300.99 109.22 0)
 		(effects
@@ -9938,6 +9958,36 @@
 		)
 		(uuid "0d0a5d4a-b17a-4493-b4ed-5c6469f6f266")
 	)
+	(label "PHASEBCURRENT"
+		(at 90.17 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "149cb157-c2dc-474b-850d-f02285e4b8b6")
+	)
+	(label "ADC12_IN6"
+		(at 90.17 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1af7f44f-d7a5-4c24-9ac8-ca9d5fd84fec")
+	)
+	(label "PWMAHIGH"
+		(at 41.91 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1fec54cd-cb60-40ee-87c9-7b9d232b893d")
+	)
 	(label "PHASEC"
 		(at 316.23 166.37 0)
 		(effects
@@ -9948,6 +9998,46 @@
 		)
 		(uuid "20e968bb-e2ba-44e2-bcd3-1643034b6448")
 	)
+	(label "VBAT"
+		(at 331.47 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2382d7c1-77ab-49f5-840a-c5c55d618c32")
+	)
+	(label "PHASECCURRENT"
+		(at 90.17 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24fd0159-9f3c-441d-b726-638a881fc175")
+	)
+	(label "FETTEMP"
+		(at 80.01 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b044abb-8dda-4f7f-a0f8-ac63e846c825")
+	)
+	(label "PWMALOW"
+		(at 41.91 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c7d5d83-0f1f-43c0-a5fd-620cb886960b")
+	)
 	(label "DRVL_A"
 		(at 273.05 45.72 0)
 		(effects
@@ -9957,6 +10047,166 @@
 			(justify left bottom)
 		)
 		(uuid "3023615d-6cf9-4447-8f67-d4288ba6a417")
+	)
+	(label "PHASECCURRENT"
+		(at 374.65 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "312514ca-6006-4118-95bc-4d8b209c2c17")
+	)
+	(label "VBAT"
+		(at 148.59 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "322bb656-b9bb-4666-b6e5-c152d56f7e25")
+	)
+	(label "HALLSENSORA"
+		(at 99.06 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32a62eb6-18d2-42fe-84a0-39c24e706bb6")
+	)
+	(label "BATTERYVOLTAGE"
+		(at 148.59 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "357fa6d8-7fb1-4a1f-bb2c-058818abdf79")
+	)
+	(label "B2"
+		(at 162.56 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36f3abe9-cfd9-4671-994c-21a2cab40382")
+	)
+	(label "BATTERYVOLTAGE"
+		(at 90.17 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3eb324aa-5064-4670-be9a-6d9b590c042b")
+	)
+	(label "VBIAS"
+		(at 370.84 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fbb9ff2-5579-4841-9b70-7a29428e8ec2")
+	)
+	(label "PHASEACURRENT"
+		(at 90.17 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "410f1fa4-7d54-49c4-b901-612676ace7af")
+	)
+	(label "B1"
+		(at 90.17 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48266d90-a744-4a43-9394-d2e6d7f9765f")
+	)
+	(label "PWMALOW"
+		(at 240.03 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b95841d-9e64-435b-9618-ab81612895d1")
+	)
+	(label "PWMBHIGH"
+		(at 240.03 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ca250f7-c312-4cc4-885b-7140c3254908")
+	)
+	(label "VBAT"
+		(at 236.22 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5062fc3a-4b14-4845-8a7a-3e5bbe209f89")
+	)
+	(label "VBAT"
+		(at 330.2 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52740f00-1eef-4cc8-8df5-be9e47bb7c68")
+	)
+	(label "PHASEBCURRENT"
+		(at 374.65 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "554998fa-7723-4b15-ab1e-06f40c18ae0f")
+	)
+	(label "PWMCLOW"
+		(at 238.76 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "554b4257-d010-4a14-b8a5-69d08547fbb3")
+	)
+	(label "PWMCHIGH"
+		(at 41.91 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c1252ee-9741-47d0-92bd-462221d653b2")
 	)
 	(label "GL_C"
 		(at 299.72 173.99 0)
@@ -9988,6 +10238,16 @@
 		)
 		(uuid "70deebcd-782a-48a8-bbb1-dd1fb348fc9a")
 	)
+	(label "PHASEACURRENT"
+		(at 374.65 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "730ccca7-9bef-434e-a736-b658cd8c7fde")
+	)
 	(label "SH_B"
 		(at 313.69 118.11 0)
 		(effects
@@ -9997,6 +10257,36 @@
 			(justify left bottom)
 		)
 		(uuid "76bfc805-5965-4d15-81b1-9dc6c356e1dd")
+	)
+	(label "VBIAS"
+		(at 370.84 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79897506-2815-4c09-9cbe-7f07a15f857b")
+	)
+	(label "PWMBLOW"
+		(at 240.03 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b6afcd7-7061-42bd-8840-7cacffa505c1")
+	)
+	(label "VBAT"
+		(at 273.05 269.24 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bf81dca-77cd-4a36-9a11-5a84020bbd62")
 	)
 	(label "GH_A"
 		(at 299.72 27.94 0)
@@ -10008,6 +10298,26 @@
 		)
 		(uuid "7d76c746-452b-498d-83eb-45dec9e0e9fb")
 	)
+	(label "VBAT"
+		(at 271.78 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e408716-a582-4f4b-bb2f-b735af775a34")
+	)
+	(label "B2"
+		(at 90.17 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e6eac93-c1b4-49a5-91c1-a712d671d349")
+	)
 	(label "GH_B"
 		(at 299.72 91.44 0)
 		(effects
@@ -10017,6 +10327,16 @@
 			(justify left bottom)
 		)
 		(uuid "816c1e10-5563-4297-b896-a21e750b8e7d")
+	)
+	(label "PWMBHIGH"
+		(at 41.91 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ff0588d-9dbd-4785-b150-a6f32791a6f2")
 	)
 	(label "DRVL_B"
 		(at 273.05 109.22 0)
@@ -10028,6 +10348,46 @@
 		)
 		(uuid "919feb0f-b28f-4c85-9028-71d2df9cb7d9")
 	)
+	(label "ADC12_IN7"
+		(at 90.17 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91b7c322-cb63-4244-a959-d6241832aa93")
+	)
+	(label "B1"
+		(at 162.56 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "943c0df8-a841-47f1-9721-51d489c6f23b")
+	)
+	(label "VBAT"
+		(at 34.29 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "963224c3-8a57-44a7-b2c7-866bd413df2d")
+	)
+	(label "VBAT"
+		(at 331.47 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bc42da6-c98f-49ac-ad17-cc9c77012606")
+	)
 	(label "PHASEA"
 		(at 316.23 38.1 0)
 		(effects
@@ -10037,6 +10397,26 @@
 			(justify left bottom)
 		)
 		(uuid "9d020a91-a8ff-42f9-9543-9ca7ea7faf64")
+	)
+	(label "HALLSENSORB"
+		(at 90.17 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d397be9-1634-4ef3-af90-46e0545648b8")
+	)
+	(label "MOTORTEMP"
+		(at 90.17 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a151947c-2142-4c8f-bd59-8070fb5ce06e")
 	)
 	(label "DRVH_A"
 		(at 273.05 33.02 0)
@@ -10078,6 +10458,26 @@
 		)
 		(uuid "ab48a012-5bdf-4f78-bdfb-e2302abec197")
 	)
+	(label "VBAT"
+		(at 29.21 252.73 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b65dbc7f-196f-474c-9ee3-65907defc689")
+	)
+	(label "HALLSENSORA"
+		(at 90.17 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6d41da6-f72d-4121-ab0b-0d96eb0159e5")
+	)
 	(label "BOOT_B"
 		(at 274.32 83.82 0)
 		(effects
@@ -10087,6 +10487,56 @@
 			(justify left bottom)
 		)
 		(uuid "b7f5abc0-454d-47d1-a9a8-8d96d5dce975")
+	)
+	(label "FETTEMP"
+		(at 90.17 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbcd812c-fcbb-4569-a7c1-d321618458d1")
+	)
+	(label "ADC12_IN7"
+		(at 152.4 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf31b47f-efbf-4bc7-879e-9c9da76515bf")
+	)
+	(label "HALLSENSORB"
+		(at 99.06 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3baee37-b065-4781-b418-11b1e03af087")
+	)
+	(label "PWMCHIGH"
+		(at 238.76 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c67c4455-6a96-4cbd-a31c-d246647c5d2b")
+	)
+	(label "VBIAS"
+		(at 370.84 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd91bdae-58a0-4ba5-82ca-3e237757de32")
 	)
 	(label "SH_A"
 		(at 313.69 54.61 0)
@@ -10098,6 +10548,36 @@
 		)
 		(uuid "cf4a7e50-8134-4ac1-8a8d-f57526454483")
 	)
+	(label "MOTORTEMP"
+		(at 99.06 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7ecffee-5eee-42b2-862f-3d7100f1e31c")
+	)
+	(label "VBIAS"
+		(at 369.57 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d82b2ed7-09da-4463-85a8-a08b781bf271")
+	)
+	(label "PWMBLOW"
+		(at 41.91 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd28aac1-ccf1-4584-8678-49314408aa77")
+	)
 	(label "GL_A"
 		(at 300.99 45.72 0)
 		(effects
@@ -10107,6 +10587,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5e63667-aa01-4161-a4f1-51afa2a478a5")
+	)
+	(label "PWMAHIGH"
+		(at 240.03 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6a362ca-adf8-417b-99e8-e0cf02e16dc7")
 	)
 	(label "BOOT_A"
 		(at 274.32 20.32 0)
@@ -10118,6 +10608,36 @@
 		)
 		(uuid "e6b08a38-5329-4604-9f97-d01aa58b0b30")
 	)
+	(label "PWMCLOW"
+		(at 41.91 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e72fb942-5f21-434c-bef9-9cec7553aae9")
+	)
+	(label "ADC12_IN6"
+		(at 152.4 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e75d1e95-ddfe-408a-8832-66816891fe7c")
+	)
+	(label "DISABLEPOWER"
+		(at 34.29 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8a1b62a-7846-41d9-af1f-3deeb1e6d12e")
+	)
 	(label "GH_C"
 		(at 299.72 156.21 0)
 		(effects
@@ -10128,1277 +10648,15 @@
 		)
 		(uuid "fb3d5b68-df2d-44fb-9854-b9032738f87c")
 	)
-	(global_label "PWMALOW"
-		(shape input)
-		(at 41.91 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0945838e-d89b-4b3b-895b-6f540cfbcffa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4255 32.9406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ADC12_IN7"
-		(shape input)
-		(at 152.4 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0caf48bb-f5ba-4c2a-8edf-e249ae578454")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.9731 153.5906 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BATTERYVOLTAGE"
-		(shape input)
-		(at 90.17 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "109c984d-e641-4943-96f2-4fa33c989385")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.3069 55.8006 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 271.78 224.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1251710e-5516-45ce-84cf-1836d6a4dab5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.9845 224.7106 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBIAS"
-		(shape input)
-		(at 370.84 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13e8e7ab-e465-4f8d-a995-cb6f348c79dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 378.8169 45.7994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOTORTEMP"
-		(shape input)
-		(at 99.06 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17227d07-43ca-4879-b50c-d11219cce586")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.6612 200.5806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DISABLEPOWER"
-		(shape input)
-		(at 34.29 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b17ed28-d4ed-4eac-b7d8-d7106b6ac72a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.7859 124.3806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ADC12_IN6"
-		(shape input)
-		(at 152.4 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1bb4e86d-dd9f-4a21-8168-bc2b8af345f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.9731 156.1306 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOTORTEMP"
-		(shape input)
-		(at 90.17 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c0bde10-3023-4b0b-a2a9-9a2a0926a67c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.7712 58.3406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PWMCLOW"
-		(shape input)
-		(at 238.76 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a95a33a-10e0-4f91-88bc-721f6b747a99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.094 170.1006 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 236.22 215.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3690eb2b-cc6f-4801-8a94-c32ec9f30b1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.4245 215.8206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HALLSENSORC"
-		(shape input)
-		(at 90.17 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3747726a-f93a-4f54-a3c0-38d28793108b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8274 63.4206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PWMALOW"
-		(shape input)
-		(at 240.03 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f2c3178-b084-4b44-bd30-62447d5f95bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.5455 41.8306 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 330.2 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43dafe7f-78dd-434a-8d72-220361aa2b11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.9955 148.6694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 34.29 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4447d8f4-b486-46b0-9f4a-a5808c540909")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.4945 109.1406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PWMBHIGH"
-		(shape input)
-		(at 41.91 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "47a8ca9a-fd3e-4d48-aa03-e88f1baf8061")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.5183 43.1006 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PWMBHIGH"
-		(shape input)
-		(at 240.03 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "47b1bbfc-0467-4ac3-8681-86662ff3f6b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.6383 100.2506 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HALLSENSORA"
-		(shape input)
-		(at 90.17 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56ab1f3b-117d-40ba-a836-ba8acf7eff20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.646 68.5006 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PWMBLOW"
-		(shape input)
-		(at 41.91 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5a380b35-9745-437f-8457-0f67dcd910fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.244 35.4806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PWMBLOW"
-		(shape input)
-		(at 240.03 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5b3282a9-6b2a-4a90-abac-8b7eb7b01fcd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.364 105.3306 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBIAS"
-		(shape input)
-		(at 369.57 231.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5c8e986f-f3d2-41db-890b-de1a4bb4f311")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 378.2121 231.0606 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ADC12_IN7"
-		(shape input)
-		(at 90.17 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5caa95b1-5294-4b14-bde6-da2d267ef8fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.7431 43.1006 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "B2"
-		(shape input)
-		(at 162.56 196.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "601a6524-2302-4072-a841-3fbffcc60e43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.4526 196.7706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BATTERYVOLTAGE"
-		(shape input)
-		(at 148.59 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "67f53b0e-dafa-47d5-9248-ff6675755fca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.7269 111.6806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PWMCLOW"
-		(shape input)
-		(at 41.91 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6823697b-5f1c-44b8-95f5-6b84b2532959")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.244 38.0206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PWMCHIGH"
-		(shape input)
-		(at 41.91 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6bbf0be5-d9e5-49d9-8801-7988d41b4239")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.5183 45.6406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "B2"
-		(shape input)
-		(at 90.17 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c7a3ddb-8119-429a-8bdc-4c41d1a67b5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.0626 32.9406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 273.05 269.24 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ef17c31-5c5e-4734-87d7-3e30645901f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.9706 277.0355 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 331.47 20.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "779be5e9-fd7d-4daf-8c1c-c0430478a595")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.2655 20.3994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PHASEBCURRENT"
-		(shape input)
-		(at 374.65 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9000803d-796c-4780-906f-0235baee0e6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 392.9683 121.8406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PHASEACURRENT"
-		(shape input)
-		(at 90.17 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92eb945d-261b-4129-876b-6425a392ebe4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.3069 53.2606 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ADC12_IN6"
-		(shape input)
-		(at 90.17 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93c8d506-2d2c-4726-8076-2a7974011570")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.7431 45.6406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DISABLEPOWER"
-		(shape input)
-		(at 236.22 265.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "95413ddc-cb54-430d-9be8-c21528cd05c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.7159 265.3506 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HALLSENSORB"
-		(shape input)
-		(at 90.17 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9b4e5472-883e-4223-9cf3-ec11ec0fe421")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8274 65.9606 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PWMAHIGH"
-		(shape input)
-		(at 240.03 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6f6c1ee-35aa-46a8-8108-b0aed77c9d4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.8198 36.7506 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PHASECCURRENT"
-		(shape input)
-		(at 374.65 186.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1cad25d-0034-4fc8-a66c-a082c4f3bab3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 392.9683 186.6106 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "B1"
-		(shape input)
-		(at 162.56 194.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b432fb5e-f6f9-4368-ac5b-ad5efacc8846")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.4526 194.2306 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBIAS"
-		(shape input)
-		(at 370.84 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b463b363-fb83-4608-991a-cdd0cdb76823")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 378.8169 174.0694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "HALLSENSORB"
-		(shape input)
-		(at 99.06 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b55fe2a5-2532-4467-ba0d-8c3e95f1c58a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.7174 208.2006 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 29.21 252.73 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b797697b-42dc-4b88-9b50-9458fcd93c0f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.2894 244.9345 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FETTEMP"
-		(shape input)
-		(at 80.01 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb91e00c-2fee-4fb5-bdf7-2096c812a671")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.4664 151.0506 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBIAS"
-		(shape input)
-		(at 370.84 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf0b9b5d-4f0a-44ca-b7f1-24b6adcba30c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 378.8169 109.2994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "B1"
-		(shape input)
-		(at 90.17 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf915056-7874-44ea-bc2a-5560e927f2d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.0626 35.4806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PHASECCURRENT"
-		(shape input)
-		(at 90.17 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cef9ded0-2b78-46a0-b213-4a6d45c2f8b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.4883 48.1806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PHASEACURRENT"
-		(shape input)
-		(at 374.65 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8bb4591-11ab-47f6-9884-f51a0dea910a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 392.7869 58.3406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PHASEBCURRENT"
-		(shape input)
-		(at 90.17 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8f6b77f-bde2-4824-b9e2-53c92a41d9c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.4883 50.7206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PWMCHIGH"
-		(shape input)
-		(at 238.76 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1e1c17d-f82f-4d9f-8bd1-52238f4ab8a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.3683 165.0206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 148.59 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e719cf41-3545-4ad6-a368-ecbbc51b89b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.3855 104.2194 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FETTEMP"
-		(shape input)
-		(at 90.17 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e73285fe-225e-45a6-ae7b-e5c76bfc1379")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6264 40.5606 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 331.47 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9608e9f-80f2-4f06-aa84-7975f506fb19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.2655 83.8994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PWMAHIGH"
-		(shape input)
-		(at 41.91 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f270656c-70b3-487f-a2ad-92c493a5afd5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.6998 40.5606 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HALLSENSORC"
-		(shape input)
+	(label "HALLSENSORC"
 		(at 99.06 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "f39f229e-2bc6-4526-a314-0a115a765f5b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.7174 205.6606 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "HALLSENSORA"
-		(shape input)
-		(at 99.06 210.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fac1aff6-84a3-44e4-b7e7-19a9e1a4c064")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.536 210.7406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "ff30dee4-f638-4fd5-8f26-68eb60dd0753")
 	)
 	(symbol
 		(lib_id "Device:C")
