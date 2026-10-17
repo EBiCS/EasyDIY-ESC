@@ -4583,8 +4583,12 @@
 		)
 		(symbol "power:+12V"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4645,7 +4649,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4698,8 +4702,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+12V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4719,8 +4722,12 @@
 		)
 		(symbol "power:+3V3"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4781,7 +4788,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4834,8 +4841,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3V3"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4855,8 +4861,12 @@
 		)
 		(symbol "power:+5V"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4917,7 +4927,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4970,8 +4980,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4991,8 +5000,12 @@
 		)
 		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5053,7 +5066,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5082,8 +5095,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5169,7 +5181,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "flag power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5184,7 +5196,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11115,7 +11127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03e8322e-e8bb-4af6-b10b-584954b169ce")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR29"
 			(at 97.79 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11127,7 +11139,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 119.38 0)
+			(at 97.79 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11158,8 +11170,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 97.79 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11174,7 +11187,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR029")
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -11269,7 +11282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0684d95c-03ff-4296-9a4c-6355d2a0980d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 243.84 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11281,14 +11294,13 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 236.22 20.3199 90)
+			(at 236.474 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11313,8 +11325,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 240.03 20.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11329,7 +11342,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -11505,7 +11518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e741076-13fc-43f4-8618-bceb5ce50eb1")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR20"
 			(at 34.29 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11517,7 +11530,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 120.65 0)
+			(at 34.29 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11548,8 +11561,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11564,7 +11578,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR020")
+					(reference "#PWR20")
 					(unit 1)
 				)
 			)
@@ -11581,7 +11595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "106875db-01e4-4c28-885e-6bdb12bba148")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 144.78 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -11593,7 +11607,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 144.78 248.92 0)
+			(at 144.78 249.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11624,8 +11638,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 144.78 252.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11640,7 +11655,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -11897,7 +11912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16b0878a-89dd-4c74-8fd9-ba3219629db3")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR36"
 			(at 147.32 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -11909,14 +11924,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.225 162.5599 0)
+			(at 147.32 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11941,8 +11955,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 147.32 161.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11957,7 +11972,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR036")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -12543,7 +12558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f775821-10ff-4906-acec-dafabae2527a")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR34"
 			(at 162.56 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12555,14 +12570,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 164.465 203.1999 0)
+			(at 162.56 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12587,8 +12601,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 162.56 201.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12603,7 +12618,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR034")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -12779,7 +12794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "275d26fb-be63-4ff1-bceb-d3ea7afc9978")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 243.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12823,8 +12838,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 240.03 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12839,7 +12855,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -13132,7 +13148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "290da127-f7ee-480c-bb36-c7da1d16fd0d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 229.87 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -13176,8 +13192,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 236.22 231.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13192,7 +13209,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -13639,7 +13656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32526d22-278a-433a-85a8-ef5f467e278a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 242.57 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13683,8 +13700,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 238.76 148.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13699,7 +13717,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -13716,7 +13734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32af831b-2c84-4c72-a27d-a4dc15d54ba6")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 241.3 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13728,7 +13746,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 97.79 0)
+			(at 241.3 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13759,8 +13777,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 95.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13775,7 +13794,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -13793,7 +13812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "333aeb1c-937c-4834-8581-e05ff6c1991e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 144.78 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -13805,7 +13824,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 276.86 0)
+			(at 144.78 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13836,8 +13855,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 144.78 274.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13852,7 +13872,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -13984,7 +14004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33912824-bc33-4236-ab21-5a7d0f840698")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 31.75 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -13996,7 +14016,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 31.75 182.245 0)
+			(at 31.75 183.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14027,8 +14047,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 31.75 186.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14043,7 +14064,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -14312,7 +14333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39b678f3-c2cf-4450-b789-b67aaad92f23")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR37"
 			(at 64.77 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -14324,7 +14345,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 62.23 18.415 0)
+			(at 64.77 16.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14355,8 +14376,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 64.77 20.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14371,7 +14393,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR037")
+					(reference "#PWR37")
 					(unit 1)
 				)
 			)
@@ -14947,7 +14969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42519923-b72d-4168-b49a-6236ca6dd9d4")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR17"
 			(at 31.75 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -14959,7 +14981,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 231.14 0)
+			(at 31.75 232.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14990,8 +15012,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 228.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15006,7 +15029,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR017")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -15023,7 +15046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4335accc-2690-45b3-add1-755487c6ef77")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR21"
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15035,7 +15058,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 53.975 105.41 0)
+			(at 52.07 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15066,8 +15089,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 52.07 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15082,7 +15106,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR021")
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
@@ -15178,7 +15202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "441f176f-43dd-4a7c-8f8a-d4f448e3fde9")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR33"
 			(at 265.43 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -15222,8 +15246,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 271.78 238.76 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15238,7 +15263,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR033")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -15732,7 +15757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "515d3fce-029e-4aa7-9d81-d84534b72abb")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR22"
 			(at 52.07 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -15744,7 +15769,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 120.65 0)
+			(at 52.07 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15775,8 +15800,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15791,7 +15817,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR022")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -16573,7 +16599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fa71ef4-8615-4e3d-a193-0c5d3e595c8c")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -16585,7 +16611,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 151.13 140.97 0)
+			(at 147.32 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16616,8 +16642,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 147.32 142.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16632,7 +16659,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -16973,7 +17000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6984cb4a-de54-4721-ac7d-502a2cc1360d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR19"
 			(at 44.45 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -16985,7 +17012,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 45.72 182.245 0)
+			(at 44.45 183.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17016,8 +17043,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 44.45 186.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17032,7 +17060,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR019")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -17049,7 +17077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bb51504-6f06-4111-87d0-12a6d14b1823")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR30"
 			(at 92.71 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -17061,7 +17089,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 19.05 0)
+			(at 92.71 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17092,8 +17120,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 21.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17108,7 +17137,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR030")
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -17125,7 +17154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cb1a606-c292-48aa-ba15-dc9fa576d739")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 240.03 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -17137,7 +17166,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 162.56 0)
+			(at 240.03 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17168,8 +17197,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 240.03 160.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17184,7 +17214,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -17287,7 +17317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dc4d72a-9a9c-409a-a69e-7805c9fed149")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR106"
 			(at 337.82 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -17299,7 +17329,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 337.82 210.82 0)
+			(at 337.82 211.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17330,8 +17360,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 337.82 214.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17346,7 +17377,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR0106")
+					(reference "#PWR106")
 					(unit 1)
 				)
 			)
@@ -17443,7 +17474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70b7b96d-a69f-4f28-b01c-1d5e67eba286")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR24"
 			(at 71.12 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -17455,7 +17486,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 72.39 139.065 0)
+			(at 71.12 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17486,8 +17517,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 71.12 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17502,7 +17534,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR024")
+					(reference "#PWR24")
 					(unit 1)
 				)
 			)
@@ -17600,7 +17632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73e14c07-c6a0-4383-80f5-d26af95150e1")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG1"
 			(at 273.05 267.335 0)
 			(hide yes)
 			(show_name no)
@@ -17612,7 +17644,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 273.05 263.525 0)
+			(at 273.05 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17643,8 +17675,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 273.05 269.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17659,7 +17692,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#FLG01")
+					(reference "#FLG1")
 					(unit 1)
 				)
 			)
@@ -18088,7 +18121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "812ad7b9-3373-41f4-99cf-9a2d0d093dec")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR32"
 			(at 154.94 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -18100,7 +18133,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 216.535 0)
+			(at 154.94 215.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18131,8 +18164,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 154.94 212.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18147,7 +18181,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR032")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
@@ -18567,7 +18601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8eb91d95-a0e0-43d3-a5ad-1ebdbd7233b4")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR31"
 			(at 149.86 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -18579,7 +18613,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 148.59 216.535 0)
+			(at 149.86 215.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18610,8 +18644,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 149.86 212.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18626,7 +18661,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR031")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
@@ -18723,7 +18758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94f84198-bbee-4933-8672-40e0f973c368")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 240.03 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -18735,14 +18770,13 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 232.41 247.6499 90)
+			(at 232.664 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18767,8 +18801,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 236.22 247.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18783,7 +18818,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -19803,7 +19838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa1572c7-746f-4ddb-a416-6a8be278883d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR26"
 			(at 71.12 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -19815,14 +19850,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.675 163.195 0)
+			(at 71.12 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -19847,8 +19881,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 71.12 158.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19863,7 +19898,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR026")
+					(reference "#PWR26")
 					(unit 1)
 				)
 			)
@@ -20815,7 +20850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9148c69-440a-4d23-b97a-56036b8874db")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 312.42 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -20827,7 +20862,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 316.23 195.58 0)
+			(at 312.42 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20858,8 +20893,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 312.42 193.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20874,7 +20910,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -20891,7 +20927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9e1273d-8f05-4a8d-8b25-879fc46d63d2")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 241.3 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -20903,7 +20939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 34.29 0)
+			(at 241.3 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20934,8 +20970,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20950,7 +20987,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -21621,7 +21658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd6cf3cd-e046-4c70-a8e8-f1d0ce145a17")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 29.21 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -21633,7 +21670,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 276.86 0)
+			(at 29.21 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21664,8 +21701,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 29.21 274.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21680,7 +21718,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -21697,7 +21735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d332d320-c0a4-43aa-8c8f-b0e8f4e191cd")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR105"
 			(at 300.99 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -21709,7 +21747,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 300.99 220.98 0)
+			(at 300.99 221.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21740,8 +21778,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 300.99 224.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21756,7 +21795,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR0105")
+					(reference "#PWR105")
 					(unit 1)
 				)
 			)
@@ -22009,7 +22048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8735285-d7a3-44a3-b08d-a9ba8c11e669")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR28"
 			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -22021,7 +22060,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 99.06 107.95 0)
+			(at 97.79 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22052,8 +22091,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 97.79 111.76 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22068,7 +22108,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR028")
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -22325,7 +22365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcbca62b-fb07-40c4-9c54-0d7945104c0a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 313.69 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -22337,7 +22377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 317.5 67.31 0)
+			(at 313.69 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22368,8 +22408,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 313.69 64.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22384,7 +22425,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -22479,7 +22520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2b11fbb-c173-4a8f-aad9-c28622aee810")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 313.69 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -22491,7 +22532,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 317.5 130.81 0)
+			(at 313.69 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22522,8 +22563,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 313.69 128.27 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22538,7 +22580,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -22635,7 +22677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4be14a0-f628-4048-b4ee-6f03d97213fa")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR103"
 			(at 67.31 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -22647,7 +22689,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 71.12 19.05 0)
+			(at 67.31 16.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22678,8 +22720,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 67.31 20.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22694,7 +22737,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR0103")
+					(reference "#PWR103")
 					(unit 1)
 				)
 			)
@@ -22874,7 +22917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e687f2c1-22ce-41ed-85cc-9678db22285d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR27"
 			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22886,7 +22929,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 85.09 0)
+			(at 64.77 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22917,8 +22960,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22933,7 +22977,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR027")
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -23028,7 +23072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec2b36d9-b5bf-4020-bf47-68d83b7a644e")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR18"
 			(at 143.51 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -23040,14 +23084,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 120.6499 0)
+			(at 143.51 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -23072,8 +23115,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 143.51 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23088,7 +23132,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR018")
+					(reference "#PWR18")
 					(unit 1)
 				)
 			)
@@ -23186,7 +23230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ede0c98e-4b14-4bf9-82b8-e728a83b7f28")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR23"
 			(at 337.82 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -23198,7 +23242,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 334.01 247.65 0)
+			(at 337.82 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23229,8 +23273,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 337.82 245.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23245,7 +23290,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR023")
+					(reference "#PWR23")
 					(unit 1)
 				)
 			)
@@ -23341,7 +23386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f45670cf-0b2c-41a1-9bf1-54569fcbefa5")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR25"
 			(at 300.99 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -23353,7 +23398,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 297.18 242.57 0)
+			(at 300.99 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23384,8 +23429,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 300.99 240.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23400,7 +23446,7 @@
 		(instances
 			(project "ede"
 				(path "/613ce808-14c9-45a4-b8f2-b76313c2c2b9"
-					(reference "#PWR025")
+					(reference "#PWR25")
 					(unit 1)
 				)
 			)
