@@ -3052,7 +3052,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+			(property "ki_fp_filters" "R_* RV_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -19102,14 +19102,13 @@
 		(dnp no)
 		(uuid "938e29c1-fe4a-4924-b231-86f60806bb80")
 		(property "Reference" "NTC1"
-			(at 61.595 156.21 90)
+			(at 61.976 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10K"
@@ -19145,8 +19144,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
 			(at 58.42 154.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
