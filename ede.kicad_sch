@@ -5848,6 +5848,10 @@
 		(uuid "fdeb159a-b44d-4dc2-90a8-1d1922d22423")
 	)
 	(no_connect
+		(at 46.99 63.5)
+		(uuid "03eddcae-a2b3-44d7-9309-3b8e897718dc")
+	)
+	(no_connect
 		(at 46.99 50.8)
 		(uuid "0a86f03e-1a5c-473c-8662-c66d93521b8f")
 	)
@@ -5902,6 +5906,10 @@
 	(no_connect
 		(at 87.63 60.96)
 		(uuid "86eed683-d26a-457c-b802-0f73b2c40a19")
+	)
+	(no_connect
+		(at 46.99 66.04)
+		(uuid "e808dbe2-49f3-4cd5-9dac-d1f6f2baf83f")
 	)
 	(wire
 		(pts
@@ -5992,16 +6000,6 @@
 			(type default)
 		)
 		(uuid "04b619fd-6f3d-4ab4-add2-b15857b6c989")
-	)
-	(wire
-		(pts
-			(xy 41.91 63.5) (xy 46.99 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0574d543-9798-4cf7-8711-8cbdc2f0a05e")
 	)
 	(wire
 		(pts
@@ -6652,16 +6650,6 @@
 			(type default)
 		)
 		(uuid "363a13a2-2e33-449e-8c6b-8a3917f9209b")
-	)
-	(wire
-		(pts
-			(xy 41.91 66.04) (xy 46.99 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36c3b24d-58f4-445b-a6c4-b20281e13eb4")
 	)
 	(wire
 		(pts
@@ -9907,30 +9895,6 @@
 			)
 		)
 	)
-	(global_label "USART1TX"
-		(shape input)
-		(at 41.91 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "19282ec6-9392-4bca-9cff-413b6ad6c78a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.244 63.4206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DISABLEPOWER"
 		(shape input)
 		(at 34.29 124.46 180)
@@ -10768,30 +10732,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "USART1RX"
-		(shape input)
-		(at 41.91 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc8514ab-0642-45eb-bc9c-f190f6cb15aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9417 65.9606 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
